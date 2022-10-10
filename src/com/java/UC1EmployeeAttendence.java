@@ -1,10 +1,10 @@
 package com.java;
 
-public class UC1_EmployeeAttendence {
+public class UC1EmployeeAttendence {
     public static void main(String[] args) {
-        int full_time=1;
+        int fullTime=1;
         double check = Math.floor(Math.random()*10)%2;
-        if(check==full_time)
+        if(check==fullTime)
             System.out.println("employee present");
         else
             System.out.println("employee absent");

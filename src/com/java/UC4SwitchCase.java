@@ -1,6 +1,6 @@
 package com.java;
 
-public class UC4_SwitchCase {
+public class UC4SwitchCase {
     public static void main(String[] args){
         int check = (int) (Math.floor(Math.random()*10)%2);
         switch(check){
@@ -12,8 +12,6 @@ public class UC4_SwitchCase {
                 break;
             default:
                 System.out.println("number is "+check);
-
         }
-
-        }
+    }
 }
